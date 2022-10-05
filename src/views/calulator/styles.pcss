@@ -15,14 +15,16 @@ body {
     font-size: 16px;
     padding: .5em;
     row-gap: .5em;
-    width: 360px;
-    height: 620px;
+    width: 340px;
+    min-width: 350px;
+    height: 630px;
     background: white;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
+    box-sizing: border-box;
     margin: auto;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -140,6 +142,7 @@ body {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(5, 1fr);
         gap: .4em;
+        border-radius: 0 0 10px 10px;
         button {
             font-size: 2em;
             height: 70px;
